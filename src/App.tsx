@@ -112,7 +112,7 @@ const App = () => {
   const initialError: any = null;
 
   // use deconstrution with state hook for state variables and setters
-  const [query, setQuery] = useState("crypto");
+  const [query, setQuery] = useState("Covid");
   const [article, setArticle] = useState(initialArticle);
   const [articles, setArticles] = useState(initialNewsStories);
   const [error, setError] = useState(initialError);
@@ -187,8 +187,6 @@ const App = () => {
   },
     [query],
   );
-
-
 
   /**
    * 
